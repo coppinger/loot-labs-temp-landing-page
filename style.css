@@ -1,0 +1,36 @@
+body
+{
+    background: #0A0A0A;
+    width: calc(100vw-2rem);
+    height: calc(100vh-2rem);
+}
+
+main
+{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
+
+img
+{
+    width: 8rem;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+a
+{
+    color: #BBBBBB;
+    font-size:2rem;
+}
